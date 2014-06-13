@@ -1,0 +1,46 @@
+{
+  "name": "moxpress",
+  "description": "Mock library for unit testing Express applications",
+  "version": "0.0.1",
+  "homepage": "https://github.com/webonise/moxpress",
+  "author": {
+    "name": "Webonise Lab",
+    "email": "robert.fischer@weboniselab.com",
+    "url": "http://www.webonise.com/about/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webonise/moxpress.git"
+  },
+  "bugs": {
+    "url": "http://github.com/webonise/moxpress/issues"
+  },
+  "licenses": [
+    {
+      "type": "Unlicense",
+      "url": "http://raw.githubusercontent.com/webonise/moxpress/master/LICENSE"
+    }
+  ],
+  "main": "lib/moxpress",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "~0.4.5",
+    "mocha": "^1.20.1",
+    "npm-release": "~0.0.2",
+    "proxyquire": "~1.0.0"
+  },
+  "dependencies": {
+    "underscore": "^1.6.0"
+  },
+  "keywords": [
+    "configuration",
+    "config",
+    "config files"
+  ]
+}

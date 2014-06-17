@@ -1,7 +1,7 @@
 {
   "name": "moxpress",
   "description": "Mock library for unit testing Express applications",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/webonise/moxpress",
   "author": {
     "name": "Webonise Lab",

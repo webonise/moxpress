@@ -5,7 +5,6 @@
 var gulp = require("gulp");
 var _ = require("underscore");
 var mocha = require('gulp-mocha');
-var jshint = require('gulp-jshint');
 var merge = require('merge-stream');
 
 /*
@@ -14,17 +13,6 @@ var merge = require('merge-stream');
 var testSource = gulp.src(["./test/*.js", "./test/**/*.js"]);
 var appSource = gulp.src(["./lib/*.js", "./lib/**/*.js"]);
 var jsSource = merge(testSource, appSource);
-
-/*
-* JSHint Tasks.
-*/
-var jsHintStream = appSource.pipe(jshint());
-gulp.task('lint', function() {
-  return jsHintStream.
-    pipe(jshint.reporter('jshint-stylish')).
-    pipe(jshint.reporter('fail'))
-  ;
-});
 
 /*
 * Testing tasks

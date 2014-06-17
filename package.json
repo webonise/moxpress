@@ -30,17 +30,19 @@
   },
   "devDependencies": {
     "chai": "^1.9.1",
-    "grunt": "~0.4.5",
+    "gulp": "^3.8.0",
+    "gulp-mocha": "^0.4.1",
     "mocha": "^1.20.1",
     "npm-release": "~0.0.2",
-    "proxyquire": "~1.0.0"
+    "underscore": "^1.6.0"
   },
   "dependencies": {
+    "mime": "^1.2.11",
     "underscore": "^1.6.0"
   },
   "keywords": [
-    "configuration",
-    "config",
-    "config files"
+    "express",
+    "testing",
+    "mock"
   ]
 }

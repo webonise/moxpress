@@ -126,6 +126,6 @@ Other Useful Libraries for Testing
 =====================================
 
 * [SuperTest](http://github.com/visionmedia/supertest)
-* [Mocha](http://visionmedia.github.io/mocha/)
+* [Mocha](http://mochajs.org/)
 * [Chai](http://chaijs.com/)
 * [Proxyquire](http://github.com/thlorenz/proxyquire)
